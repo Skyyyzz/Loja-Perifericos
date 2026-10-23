@@ -1,0 +1,7 @@
+.botaoComprar{
+    background-color: aliceblue;
+    padding: 10px;
+    }
+.botaoComprar:hover {
+    background-color: aqua;
+}

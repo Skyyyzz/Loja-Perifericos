@@ -1,0 +1,41 @@
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+  background-image: url("../IMG/logo-semfundo.png");
+  background-color: black;
+}
+.cabecalho img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    left: 15px;
+}
+
+.menu ul {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.menu a {
+text-decoration: none;
+color: white;
+padding: 10px 20px;
+border-radius: 10px;
+transition: all 0.3s ease;
+}
+
+.menu a:hover {
+    background-color: #dc2626;
+    transform: translateY(-3px);
+}
+
+
+menu a:active{
+    transform: scale(0.98);
+}

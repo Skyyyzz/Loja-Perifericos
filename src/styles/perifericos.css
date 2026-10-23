@@ -1,0 +1,54 @@
+.pecas-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 1000px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.peca-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.peca-info-grupo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+
+.peca-imagem {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    border-radius: 6px;
+    background-color: #f9f9f9;
+}
+
+.peca-botao {
+    padding: 10px 15px;
+    background-color: #2196f3;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+.peca-botao:hover {
+    background-color: #1976d2;
+}
+
+.peca-botao:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+.peca-botao:not(:disabled):hover{
+    background-color: #1976d2;
+}
